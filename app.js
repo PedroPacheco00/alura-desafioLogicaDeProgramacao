@@ -1,8 +1,8 @@
 let titulo = document.querySelector ('h1');
 titulo.innerHTML = 'Hora do Desafio';
+let contador=1;
 
 function contarClique () {
-    let contador = 1;
     let palavraVez = contador > 1 ? "vezes" : "vez";
     console.log(`O botão foi clicado ${contador} ${palavraVez}`);
     contador++;
